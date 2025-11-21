@@ -25,34 +25,20 @@
 
 ## Как запустить проект
 
-1.  **Клонировать репозиторий:**
-    ```bash
+1.  Клонировать репозиторий:
     git clone <https://github.com/Fredrix24/algoritm_dekstra>
     cd DijkstraLab
-    ```
     (Если вы еще не добавили этот проект в Git, то этот шаг пропустите и просто используйте локальную папку проекта).
 
-2.  **Открыть проект в IntelliJ IDEA:**
+2.  Открыть проект в IntelliJ IDEA:
     *   Запустите IntelliJ IDEA.
     *   Выберите "File" -> "Open Project..." и укажите на папку вашего проекта.
     *   IDE проиндексирует файлы.
 
-3.  **Выполнить класс `Main`:**
+3.  Выполнить класс Main:
     *   Откройте файл `Main.java`.
     *   Нажмите на зеленую стрелку рядом с методом `main` (или `public static void main(String[] args)`) и выберите "Run 'Main.main()'".
     *   Результаты будут выведены в окне "Run" внизу IDE.
 
-## Как использовать (для разработчиков)
-
-*   **Выбор представления графа:**
-    *   В классе `Main.java` вы можете выбрать, использовать ли `GraphWithMatrix` или `GraphWithList`, раскомментировав соответствующую строку:
-        ```java
-        // Graph graph = new GraphWithMatrix(numVertices); // Использовать матрицу
-        Graph graph = new GraphWithList(numVertices);    // Использовать список смежности (рекомендуется)
-        ```
-*   **Алгоритм Дейкстры:** Статический метод `AlgoritmDekstra.findShortestPaths(graph, source)` принимает граф и начальную вершину, возвращая `AlgoritmDekstra` (массивы расстояний и предшественников).
-*   **Восстановление пути:** Метод `PathReconstruction.getShortestPath(target, predecessors, startNode)` восстанавливает путь до целевой вершины.
-
 ## Автор
-
-*   Fredrix24
+Fredrix24
