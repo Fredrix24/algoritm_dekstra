@@ -1,0 +1,27 @@
+# IntelliJ IDEA IDEA
+.idea/
+*.iml
+out/
+logs/
+*.log
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IDE specific files
+*.swp
+*~
+
+# Bytecode
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
